@@ -16,3 +16,5 @@ module.exports = {
   },
   plugins: [],
 };
+const withMT = require("@material-tailwind/html/utils/withMT");
+ 
