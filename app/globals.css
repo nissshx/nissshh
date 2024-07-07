@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'default';
-  src: url('noto.ttf');
+  src: url('./noto.ttf');
 }
 *{
   font-family: 'default';
