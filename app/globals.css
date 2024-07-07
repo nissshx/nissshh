@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'default';
-  src: url('./noto.ttf');
+  src: url('noto.ttf');
 }
 *{
   font-family: 'default';
-  letter-spacing: -0.9px;
+  letter-spacing: -0.975px;
 }
 .hello{
   font-size: 85px;
