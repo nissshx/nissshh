@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'default';
-  src: url('./noto.otf');
+  src: url('https://raw.githubusercontent.com/nissshx/nissshh/master/app/noto.ttf');
 }
 *{
   font-family: 'default';
