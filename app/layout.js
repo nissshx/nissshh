@@ -1,9 +1,7 @@
-import { Inter } from "next/font/google";
-import localFont from 'next/font/local'
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const myFont = localFont({ src: './noto.otf' })
+import { Spline_Sans } from "next/font/google";
+import "./globals.css";
+const spline = Spline_Sans({subsets:["latin"]})
 export const metadata = {
   title: "@nissshh",
   description: "Personal Portfolio",
@@ -12,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className={spline.className}>{children}</body>
     </html>
   );
 }

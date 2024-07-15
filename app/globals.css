@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'default';
-  src: url('https://raw.githubusercontent.com/nissshx/nissshh/master/app/noto.ttf');
-}
 *{
-  font-family: 'default';
+
   letter-spacing: -0.975px;
 }
 .hello{
